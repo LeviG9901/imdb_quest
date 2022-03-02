@@ -31,3 +31,12 @@ def scrape():
 
             # This variable for counting the oscars won by the movie
             oscars = 0
+
+            # Awards for getting a list of the movie awards
+            awards = ia.get_movie(movie.getID(), info=['awards']).get('awards', [])
+            # For cycle to get the number of oscars won for every movie
+            for index in range(len(awards)):
+                if awards[index]['award'] == 'Oscar' and awards[index]['result'] == 'Winner':
+                    oscars += 1
+            
+
