@@ -4,6 +4,8 @@ from imdb import Cinemagoer
 # Function for scraping the top 20 movie
 def scrape():
 
+    print("Beginning the scrape function...")
+
     # Create an instance
     ia = Cinemagoer()
 
@@ -43,3 +45,21 @@ def scrape():
             # Print out the movie with it's details
             print("\n", movie.get('title'), "\nRating: ", movie.get('rating'), "\tVotes: ", movie.get('votes'),
                   "\tOscars: ", oscars)
+
+            # Give values inside to keys movie dictionary
+            movie_dict['title'] = title
+            movie_dict['rating'] = rating
+            movie_dict['votes'] = votes
+            movie_dict['oscars'] = oscars
+
+            # Copy the movie dictionary into a copy_dict
+            copy_dict = movie_dict.copy()
+
+            # Append the org_250 list with the copied dictionary
+            org_250.append(copy_dict)
+
+        else:
+            break
+
+    print("End of the scrape function!")
+    return org_250
