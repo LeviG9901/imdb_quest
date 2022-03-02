@@ -1,0 +1,3 @@
+
+
+def penalizer(mylist):
