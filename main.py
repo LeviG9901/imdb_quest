@@ -16,5 +16,9 @@ for index in og_top20:
 # Penalize the Top20 list
 p_list = rating_adj.penalizer(copy_top20)
 
+# Modifying movie ratings according to won oscar number
+# PO means Penalized and Oscar calculatored
+po_list = rating_adj.oscar_calculator(p_list)
+
 
 print("The program finished running!")
