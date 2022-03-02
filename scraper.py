@@ -34,9 +34,12 @@ def scrape():
 
             # Awards for getting a list of the movie awards
             awards = ia.get_movie(movie.getID(), info=['awards']).get('awards', [])
-            # For cycle to get the number of oscars won for every movie
-            for index in range(len(awards)):
-                if awards[index]['award'] == 'Oscar' and awards[index]['result'] == 'Winner':
-                    oscars += 1
-            
 
+            # For cycle to get the number of oscars won for every movie
+            for index2 in range(len(awards)):
+                if awards[index2]['award'] == 'Oscar' and awards[index2]['result'] == 'Winner':
+                    oscars += 1
+
+            # Print out the movie with it's details
+            print("\n", movie.get('title'), "\nRating: ", movie.get('rating'), "\tVotes: ", movie.get('votes'),
+                  "\tOscars: ", oscars)
