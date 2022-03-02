@@ -1,4 +1,5 @@
 import scraper
+import rating_adj
 
 print("The program has started...")
 
