@@ -60,3 +60,4 @@ def oscar_calculator(po_list):
 
     print(po_list)
     print("End of the oscar_calculator() function!")
+    return po_list

@@ -25,6 +25,11 @@ p_list = rating_adj.penalizer(copy_top20)
 # PO means Penalized and Oscar calculatored
 po_list = rating_adj.oscar_calculator(p_list)
 
+# Sorting the penalized and oscar calculated list into descending order
+po_list.sort(reverse=True, key=lambda i: i['rating'])
+
+print("PO_LIST:\n")
+print(po_list)
 
 
 print("The program finished running!")
