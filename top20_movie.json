@@ -1,0 +1,248 @@
+[
+    {
+        "original_top20": [
+            {
+                "title": "The Shawshank Redemption",
+                "rating": 9.2,
+                "votes": 2552126,
+                "oscars": 0
+            },
+            {
+                "title": "The Godfather",
+                "rating": 9.2,
+                "votes": 1756363,
+                "oscars": 3
+            },
+            {
+                "title": "The Dark Knight",
+                "rating": 9.0,
+                "votes": 2503532,
+                "oscars": 2
+            },
+            {
+                "title": "The Godfather: Part II",
+                "rating": 9.0,
+                "votes": 1217158,
+                "oscars": 6
+            },
+            {
+                "title": "12 Angry Men",
+                "rating": 9.0,
+                "votes": 754291,
+                "oscars": 0
+            },
+            {
+                "title": "Schindler's List",
+                "rating": 8.9,
+                "votes": 1302339,
+                "oscars": 7
+            },
+            {
+                "title": "The Lord of the Rings: The Return of the King",
+                "rating": 8.9,
+                "votes": 1758771,
+                "oscars": 11
+            },
+            {
+                "title": "Pulp Fiction",
+                "rating": 8.9,
+                "votes": 1962227,
+                "oscars": 1
+            },
+            {
+                "title": "The Lord of the Rings: The Fellowship of the Ring",
+                "rating": 8.8,
+                "votes": 1780715,
+                "oscars": 4
+            },
+            {
+                "title": "The Good, the Bad and the Ugly",
+                "rating": 8.8,
+                "votes": 735851,
+                "oscars": 0
+            },
+            {
+                "title": "Forrest Gump",
+                "rating": 8.8,
+                "votes": 1969595,
+                "oscars": 6
+            },
+            {
+                "title": "Fight Club",
+                "rating": 8.8,
+                "votes": 2009275,
+                "oscars": 0
+            },
+            {
+                "title": "Inception",
+                "rating": 8.7,
+                "votes": 2241182,
+                "oscars": 4
+            },
+            {
+                "title": "The Lord of the Rings: The Two Towers",
+                "rating": 8.7,
+                "votes": 1589054,
+                "oscars": 2
+            },
+            {
+                "title": "Star Wars: Episode V - The Empire Strikes Back",
+                "rating": 8.7,
+                "votes": 1236858,
+                "oscars": 1
+            },
+            {
+                "title": "The Matrix",
+                "rating": 8.7,
+                "votes": 1840375,
+                "oscars": 4
+            },
+            {
+                "title": "Goodfellas",
+                "rating": 8.7,
+                "votes": 1102693,
+                "oscars": 1
+            },
+            {
+                "title": "One Flew Over the Cuckoo's Nest",
+                "rating": 8.6,
+                "votes": 974874,
+                "oscars": 5
+            },
+            {
+                "title": "Se7en",
+                "rating": 8.6,
+                "votes": 1565052,
+                "oscars": 0
+            },
+            {
+                "title": "Seven Samurai",
+                "rating": 8.6,
+                "votes": 336221,
+                "oscars": 0
+            }
+        ],
+        "modified_top20": [
+            {
+                "title": "The Lord of the Rings: The Return of the King",
+                "rating": 9.6,
+                "votes": 1758771,
+                "oscars": 11
+            },
+            {
+                "title": "The Dark Knight",
+                "rating": 9.3,
+                "votes": 2503532,
+                "oscars": 2
+            },
+            {
+                "title": "The Shawshank Redemption",
+                "rating": 9.2,
+                "votes": 2552126,
+                "oscars": 0
+            },
+            {
+                "title": "Forrest Gump",
+                "rating": 9.2,
+                "votes": 1969595,
+                "oscars": 6
+            },
+            {
+                "title": "Inception",
+                "rating": 8.9,
+                "votes": 2241182,
+                "oscars": 4
+            },
+            {
+                "title": "The Godfather",
+                "rating": 8.9,
+                "votes": 1756363,
+                "oscars": 3
+            },
+            {
+                "title": "Schindler's List",
+                "rating": 8.7,
+                "votes": 1302339,
+                "oscars": 7
+            },
+            {
+                "title": "The Godfather: Part II",
+                "rating": 8.7,
+                "votes": 1217158,
+                "oscars": 6
+            },
+            {
+                "title": "Pulp Fiction",
+                "rating": 8.6,
+                "votes": 1962227,
+                "oscars": 1
+            },
+            {
+                "title": "The Matrix",
+                "rating": 8.5,
+                "votes": 1840375,
+                "oscars": 4
+            },
+            {
+                "title": "The Lord of the Rings: The Fellowship of the Ring",
+                "rating": 8.5,
+                "votes": 1780715,
+                "oscars": 4
+            },
+            {
+                "title": "Fight Club",
+                "rating": 8.3,
+                "votes": 2009275,
+                "oscars": 0
+            },
+            {
+                "title": "The Lord of the Rings: The Two Towers",
+                "rating": 8.0,
+                "votes": 1589054,
+                "oscars": 2
+            },
+            {
+                "title": "Star Wars: Episode V - The Empire Strikes Back",
+                "rating": 7.7,
+                "votes": 1236858,
+                "oscars": 1
+            },
+            {
+                "title": "Se7en",
+                "rating": 7.6,
+                "votes": 1565052,
+                "oscars": 0
+            },
+            {
+                "title": "Goodfellas",
+                "rating": 7.6,
+                "votes": 1102693,
+                "oscars": 1
+            },
+            {
+                "title": "One Flew Over the Cuckoo's Nest",
+                "rating": 7.5,
+                "votes": 974874,
+                "oscars": 5
+            },
+            {
+                "title": "12 Angry Men",
+                "rating": 7.2,
+                "votes": 754291,
+                "oscars": 0
+            },
+            {
+                "title": "The Good, the Bad and the Ugly",
+                "rating": 7.0,
+                "votes": 735851,
+                "oscars": 0
+            },
+            {
+                "title": "Seven Samurai",
+                "rating": 6.4,
+                "votes": 336221,
+                "oscars": 0
+            }
+        ]
+    }
+]
