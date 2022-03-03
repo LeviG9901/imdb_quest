@@ -27,7 +27,6 @@ def penalizer(mylist):
             mylist[index]['rating'] = round(mylist[index]['rating'], 1)
             print(mylist[index]['rating'])
 
-    print(mylist)
     print("End of the penalizer function!")
     return mylist
 
@@ -58,6 +57,5 @@ def oscar_calculator(po_list):
             po_list[index]['rating'] += 1.5
             po_list[index]['rating'] = round(po_list[index]['rating'], 1)
 
-    print(po_list)
     print("End of the oscar_calculator() function!")
     return po_list
